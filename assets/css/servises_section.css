@@ -20,6 +20,10 @@
 .servises-card {
   display: flex;
   flex-direction: column;
+  /* align-items: center; */
+  flex-grow: 1;
+  flex-basis: 400px;
+  gap: 20px;
   padding: 40px 15px;
   border: 2px solid #000000;
   background-color: #31533b;
@@ -27,13 +31,11 @@
 
 .servises-card-heading {
   font-size: 30px;
-  margin-bottom: 20px;
   color: #f5f9ed;
 }
 
 .servises-card-description {
   color: #cddab2;
-  margin-bottom: 20px;
   line-height: 1.5;
 }
 
@@ -48,6 +50,7 @@
   align-items: center;
   padding: 10px 16px;
   height: 58px;
+  min-width: 303px;
   font: inherit;
   font-weight: bold;
   border: 2px solid #e9efdb;
@@ -71,7 +74,8 @@
 }
 
 .servises-btn {
-  margin: 20px 15px 0;
+  display: block;
+  margin: 0 15px 0;
   padding: 12px 24px;
   font-weight: bold;
   text-align: center;
@@ -96,13 +100,22 @@
 .servises-portfolio {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   font-weight: bold;
-  margin: 20px 15px 0;
+  margin: 0 15px 0;
   padding: 12px 24px;
   text-transform: uppercase;
   color: #fbf1e3;
   border: 2px solid #ce4115;
+}
+
+.servisos-heading-caption {
+  color: #cddab2;
+  font-size: 1rem;
+}
+
+.servises-card-heading:has(+ .servisos-heading-caption) {
+  margin-bottom: -10px;
 }
 
 .behance-white {
