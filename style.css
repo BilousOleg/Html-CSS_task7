@@ -36,9 +36,6 @@ img {
   object-fit: cover;
 }
 
-/* .wrapper {
-} */
-
 .container {
   min-width: 375px;
   max-width: 940px;
