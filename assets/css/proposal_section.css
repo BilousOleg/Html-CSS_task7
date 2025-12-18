@@ -28,8 +28,8 @@
 
 .proposal-image-wrapper {
   flex-shrink: 0;
-  width: clamp(100px, calc(17.33vw + 4.75vh), 120px);
-  height: clamp(100px, calc(17.33vw + 4.75vh), 120px);
+  width: clamp(100px, calc(13.33vw + 5.7vh), 120px);
+  height: clamp(100px, calc(13.33vw + 5.7vh), 120px);
   background-color: #dcdcdc;
   border: 1px solid #000000;
 }
@@ -48,6 +48,7 @@
 
 .proposal-card-info strong {
   font-weight: bold;
+  color: #1a3923;
 }
 
 .proposal-btn {
@@ -67,6 +68,7 @@
   display: inline-block;
   width: 14px;
   height: 14px;
+  margin-right: 8px;
   vertical-align: middle;
   background-image: url("./../icons/cursor_pict.svg");
   background-repeat: no-repeat;

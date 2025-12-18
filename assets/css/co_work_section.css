@@ -1,0 +1,49 @@
+.co-work-section {
+  background-color: #ffffff;
+}
+
+.co-work-section > .container {
+  padding: 60px 18px 120px;
+}
+
+.co-work-heading {
+  font-size: 40px;
+  color: #1a3923;
+}
+
+.co-work-heading-caption {
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 152.5%;
+  color: #31533b;
+}
+
+.co-work-card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 20px;
+}
+
+.co-work-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: clamp(70px, calc(11vw + 3.24vh), 120px);
+  gap: 8px;
+}
+
+.co-work-image-wrapper {
+  width: 100%;
+  height: clamp(70px, calc(11vw + 3.24vh), 120px);
+  background-color: #c4c4c4;
+  border-radius: 50%;
+}
+
+.co-work-image-caption {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #1a3923;
+}
