@@ -1,0 +1,114 @@
+.servises-section {
+}
+
+.servises-section > .container {
+  padding: 40px 18px;
+}
+
+.servises-heading {
+  font-size: 40px;
+  margin: 20px 0 40px 0;
+  color: #1a3923;
+}
+
+.servises-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.servises-card {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 15px;
+  border: 2px solid #000000;
+  background-color: #31533b;
+}
+
+.servises-card-heading {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #f5f9ed;
+}
+
+.servises-card-description {
+  color: #cddab2;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.servises-card-description > strong {
+  display: block;
+  font-weight: bold;
+}
+
+.servises-selection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  height: 58px;
+  font: inherit;
+  font-weight: bold;
+  border: 2px solid #e9efdb;
+  background-color: #b3b476;
+}
+
+.selection-text {
+  display: block;
+}
+
+.servises-selection + .servises-selection {
+  margin-top: 8px;
+}
+
+.dropdown-pict {
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  background-image: url("./../icons/dropdown_pict.svg");
+  background-repeat: no-repeat;
+}
+
+.servises-btn {
+  margin: 20px 15px 0;
+  padding: 12px 24px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fbf1e3;
+  border: 1px solid #000000;
+  background-color: #ce4115;
+}
+
+.servises-portfolio + .servises-btn {
+  margin-top: 8px;
+}
+
+.servises-btn .checkmark {
+  display: inline-block;
+  width: 20px;
+  height: 15px;
+  background-image: url("./../icons/checkmark.svg");
+  background-repeat: no-repeat;
+}
+
+.servises-portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  margin: 20px 15px 0;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  color: #fbf1e3;
+  border: 2px solid #ce4115;
+}
+
+.behance-white {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url("./../icons/behance_white.svg");
+  background-repeat: no-repeat;
+}
