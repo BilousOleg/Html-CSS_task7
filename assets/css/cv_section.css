@@ -1,0 +1,75 @@
+.cv-section {
+  background-color: #31533b;
+}
+
+.cv-section > .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px 60px;
+  overflow: visible;
+  height: 100%;
+}
+
+.cv-text {
+}
+
+.cv-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #f5f9ed;
+  margin-bottom: 15px;
+}
+
+.cv-heading span {
+  display: block;
+}
+
+.cv-description {
+  max-width: 458px;
+  line-height: 1.5;
+  color: #cddab2;
+}
+
+.cv-image-wrapper {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  order: -1;
+  align-self: flex-end;
+  width: 124px;
+  aspect-ratio: 0.795;
+  transform: translateY(-55px);
+}
+
+.cv-image-wrapper img {
+  height: 100%;
+}
+
+.quotmark-pict {
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+  width: 42px;
+  height: 25px;
+  background-image: url("./../icons/quotmark_pict.svg");
+  background-repeat: no-repeat;
+  transform: translateY(40%);
+}
+
+@media screen and (min-width: 768px) {
+  .cv-section > .container {
+    flex-direction: row;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .cv-image-wrapper {
+    position: static;
+    order: 0;
+    transform: translate(0);
+    width: clamp(124px, calc(40vw - 40px), 487px);
+    aspect-ratio: 0.667;
+  }
+}

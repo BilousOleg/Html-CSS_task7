@@ -1,9 +1,10 @@
 .top-navbar {
   position: sticky;
+  z-index: 5;
   top: 0;
   left: 0;
   width: 100%;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.1;
   color: #1a3923;
   background-color: #f5efeb;

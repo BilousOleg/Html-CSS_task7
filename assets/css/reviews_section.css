@@ -1,0 +1,58 @@
+.reviews-section {
+  background-color: #cddab2;
+}
+
+.reviews-section > .container {
+  position: relative;
+  padding: 60px 40px;
+  font-size: 14px;
+}
+
+.reviews-section p {
+  line-height: 1.2;
+}
+
+.reviews-section p:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+.review-owner {
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: end;
+}
+
+.review-text::before {
+  content: "";
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  display: inline-block;
+  width: 12px;
+  height: 22px;
+  background-image: url("./../icons/caret_right.svg");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.review-text::after {
+  content: "";
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  display: inline-block;
+  width: 12px;
+  height: 22px;
+  background-image: url("./../icons/caret_left.svg");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .review-text::before {
+    left: calc(12px - 0.3vw);
+  }
+  .review-text::after {
+    right: calc(12px - 0.3vw);
+  }
+}
