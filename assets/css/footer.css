@@ -16,3 +16,8 @@
   align-items: center;
   width: 100%;
 }
+
+.copyright {
+  font-family: "Nunito";
+  font-size: 10px;
+}
