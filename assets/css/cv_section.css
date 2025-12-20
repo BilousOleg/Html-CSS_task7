@@ -6,20 +6,17 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 40px 20px 60px;
+  padding: 2.5rem 1.25rem 3.75rem;
   overflow: visible;
   height: 100%;
 }
 
-.cv-text {
-}
-
 .cv-heading {
   font-family: "Poppins", sans-serif;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: bold;
   color: #f5f9ed;
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 
 .cv-heading span {
@@ -51,8 +48,8 @@
   position: absolute;
   bottom: 0;
   display: inline-block;
-  width: 42px;
-  height: 25px;
+  width: 2.625rem;
+  height: 1.5625rem;
   background-image: url("./../icons/quotmark_pict.svg");
   background-repeat: no-repeat;
   transform: translateY(40%);

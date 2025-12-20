@@ -4,8 +4,8 @@
 
 .reviews-section > .container {
   position: relative;
-  padding: 60px 40px;
-  font-size: 14px;
+  padding: 3.75rem 2.5rem;
+  font-size: 0.875rem;
 }
 
 .reviews-section p {
@@ -13,12 +13,12 @@
 }
 
 .reviews-section p:not(:last-of-type) {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .review-owner {
   font-weight: bold;
-  margin-top: 15px;
+  margin-top: 0.9375rem;
   text-align: end;
 }
 
@@ -28,8 +28,8 @@
   left: 12px;
   top: 50%;
   display: inline-block;
-  width: 12px;
-  height: 22px;
+  width: 0.75rem;
+  height: 1.375rem;
   background-image: url("./../icons/caret_right.svg");
   background-repeat: no-repeat;
   cursor: pointer;
@@ -41,8 +41,8 @@
   right: 12px;
   top: 50%;
   display: inline-block;
-  width: 12px;
-  height: 22px;
+  width: 0.75rem;
+  height: 1.375rem;
   background-image: url("./../icons/caret_left.svg");
   background-repeat: no-repeat;
   cursor: pointer;

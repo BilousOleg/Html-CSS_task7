@@ -3,17 +3,17 @@
 }
 
 .co-work-section > .container {
-  padding: 60px 18px 120px;
+  padding: 3.75rem 1.125rem 7.5rem;
 }
 
 .co-work-heading {
-  font-size: 40px;
+  font-size: 2.5rem;
   color: #1a3923;
 }
 
 .co-work-heading-caption {
-  margin-bottom: 40px;
-  font-size: 18px;
+  margin-bottom: 2.5rem;
+  font-size: 1.125rem;
   line-height: 152.5%;
   color: #31533b;
 }
@@ -22,8 +22,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  column-gap: 40px;
-  row-gap: 20px;
+  column-gap: 2.5rem;
+  row-gap: 1.25rem;
 }
 
 .co-work-card {
@@ -42,7 +42,7 @@
 }
 
 .co-work-image-caption {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: bold;
   text-align: center;
   color: #1a3923;

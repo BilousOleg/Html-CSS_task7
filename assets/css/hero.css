@@ -14,21 +14,24 @@
   display: flex;
   flex-direction: column;
   align-self: center;
-  padding: 30px 0 30px 18px;
+  width: 52%;
+  padding: 1.875rem 0 1.875rem 1.125rem;
 }
 
-.hero-header {
-  font-size: 46px;
+.hero-heading {
+  font-size: 2.875rem;
   font-weight: bold;
+  color: #0e2715;
 }
 
-.hero-header span {
+.hero-heading span {
   display: block;
 }
 
 .hero-description {
-  font-size: 12px;
   margin-bottom: 1rem;
+  font-size: 0.75rem;
+  color: #31533b;
 }
 
 .social-links {
@@ -41,14 +44,15 @@
 }
 
 .social-links > li + li {
-  margin-left: 12px;
+  margin-left: clamp(12px, 2vw, 22px);
 }
 
 .social-link {
   display: inline-block;
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   background-repeat: no-repeat;
+  background-size: cover;
   cursor: pointer;
 }
 
@@ -73,6 +77,26 @@
 }
 
 .hero .image-wrapper {
+  width: 48%;
   display: flex;
   justify-content: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+  .hero > .container {
+    padding-top: 0;
+  }
+
+  .hero-heading {
+    font-size: 5.33rem;
+  }
+
+  .hero-description {
+    font-size: 1.56rem;
+  }
+
+  .social-link {
+    width: 2.44rem;
+    height: 2.44rem;
+  }
 }

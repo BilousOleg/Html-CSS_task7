@@ -1,13 +1,14 @@
 .servises-section {
+  background-color: #f5f9ed;
 }
 
 .servises-section > .container {
-  padding: 40px 18px;
+  padding: 2.5rem 1.125rem;
 }
 
 .servises-heading {
-  font-size: 40px;
-  margin: 20px 0 40px 0;
+  font-size: 2.5rem;
+  margin: 1.25rem 0 2.5rem 0;
   color: #1a3923;
 }
 
@@ -24,13 +25,13 @@
   flex-grow: 1;
   flex-basis: 400px;
   gap: 20px;
-  padding: 40px 15px;
+  padding: 2.5rem 1rem;
   border: 2px solid #000000;
   background-color: #31533b;
 }
 
 .servises-card-heading {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #f5f9ed;
 }
 
@@ -48,7 +49,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   height: 58px;
   min-width: 303px;
   font: inherit;
@@ -62,21 +63,21 @@
 }
 
 .servises-selection + .servises-selection {
-  margin-top: 8px;
+  margin-top: 0.5rem;
 }
 
 .dropdown-pict {
   display: inline-block;
-  width: 20px;
-  height: 10px;
+  width: 1.25rem;
+  height: 0.625rem;
   background-image: url("./../icons/dropdown_pict.svg");
   background-repeat: no-repeat;
 }
 
 .servises-btn {
   display: block;
-  margin: 0 15px 0;
-  padding: 12px 24px;
+  margin: 0 0.9375 0;
+  padding: 0.75rem 1.5rem;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -86,13 +87,13 @@
 }
 
 .servises-portfolio + .servises-btn {
-  margin-top: 8px;
+  margin-top: 0.5rem;
 }
 
 .servises-btn .checkmark {
   display: inline-block;
-  width: 20px;
-  height: 15px;
+  width: 1.25rem;
+  height: 0.9375rem;
   background-image: url("./../icons/checkmark.svg");
   background-repeat: no-repeat;
 }
@@ -102,8 +103,8 @@
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  margin: 0 15px 0;
-  padding: 12px 24px;
+  margin: 0 0.9375rem 0;
+  padding: 0.75rem 1.5rem;
   text-transform: uppercase;
   color: #fbf1e3;
   border: 2px solid #ce4115;
@@ -115,13 +116,13 @@
 }
 
 .servises-card-heading:has(+ .servisos-heading-caption) {
-  margin-bottom: -10px;
+  margin-bottom: -0.625;
 }
 
 .behance-white {
   display: inline-block;
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   background-image: url("./../icons/behance_white.svg");
   background-repeat: no-repeat;
 }
