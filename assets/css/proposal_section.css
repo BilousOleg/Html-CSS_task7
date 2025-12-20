@@ -7,7 +7,7 @@
 }
 
 .proposal-heading {
-  font-size: 2.5rem;
+  font-size: clamp(2.5rem, 8vw, 3.33rem);
   margin-bottom: 2.5rem;
   color: #0e2715;
 }
@@ -16,7 +16,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(331px, 400px));
   gap: 20px;
-  justify-content: start;
+  justify-content: center;
 }
 
 .proposal-card {
@@ -56,7 +56,7 @@
   width: fit-content;
   padding: 0.5rem 1.875rem;
   line-height: 1.5;
-  font-size: 0.875rem;
+  font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
   color: #fbf1e3;
@@ -72,4 +72,14 @@
   vertical-align: middle;
   background-image: url("./../icons/cursor_pict.svg");
   background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .proposal-card-container {
+    justify-content: start;
+  }
+
+  .proposal-section > .container {
+    padding: 6.66rem 1.125rem;
+  }
 }

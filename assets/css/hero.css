@@ -4,6 +4,7 @@
 }
 
 .hero > .container {
+  position: relative;
   padding-top: 2rem;
   display: flex;
   justify-content: space-between;
@@ -19,7 +20,7 @@
 }
 
 .hero-heading {
-  font-size: 2.875rem;
+  font-size: clamp(2.875rem, 10vw, 5.33rem);
   font-weight: bold;
   color: #0e2715;
 }
@@ -30,7 +31,7 @@
 
 .hero-description {
   margin-bottom: 1rem;
-  font-size: 0.75rem;
+  font-size: clamp(0.75rem, 3vw, 1.56rem);
   color: #31533b;
 }
 
@@ -49,8 +50,8 @@
 
 .social-link {
   display: inline-block;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: clamp(1.5rem, calc(2.89vw + 1.57vh), 2.44rem);
+  height: clamp(1.5rem, calc(2.89vw + 1.57vh), 2.44rem);
   background-repeat: no-repeat;
   background-size: cover;
   cursor: pointer;
@@ -86,17 +87,26 @@
   .hero > .container {
     padding-top: 0;
   }
+}
 
-  .hero-heading {
-    font-size: 5.33rem;
+@media screen and (min-width: 1240px) {
+  .hero::before {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    content: "";
+    width: 20.6vw;
+    height: 25.1vw;
+    background-image: url("./../icons/header_leaf_pict.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
   }
+}
 
-  .hero-description {
-    font-size: 1.56rem;
-  }
-
-  .social-link {
-    width: 2.44rem;
-    height: 2.44rem;
+@media screen and (min-width: 1440px) {
+  .hero::before {
+    top: 25%;
+    width: 20.6vw;
+    height: 37.1vw;
   }
 }

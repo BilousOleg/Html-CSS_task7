@@ -57,3 +57,9 @@
   font-weight: bold;
   color: #8b8c4a;
 } */
+
+@media screen and (min-width: 768px) {
+  .top-navbar {
+    font-size: 1.11rem;
+  }
+}

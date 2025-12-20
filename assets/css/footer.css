@@ -10,6 +10,11 @@
   padding: 2.5rem 1rem;
 }
 
+.footer .social-link {
+  width: clamp(1.875rem, calc(2.89vw + 1.57vh), 2.22rem);
+  height: clamp(1.875rem, calc(2.89vw + 1.57vh), 2.22rem);
+}
+
 .footer-links {
   display: flex;
   justify-content: space-between;
@@ -23,7 +28,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .footer > .container {
-    /* padding: 2.22rem 1rem; */
+  .footer .logo {
+    font-size: 1.77rem;
   }
 }

@@ -7,8 +7,12 @@
 }
 
 .co-work-heading {
-  font-size: 2.5rem;
+  font-size: clamp(2.5rem, 8vw, 3.33rem);
   color: #1a3923;
+}
+
+.co-work-heading span {
+  display: block;
 }
 
 .co-work-heading-caption {
@@ -46,4 +50,15 @@
   font-weight: bold;
   text-align: center;
   color: #1a3923;
+}
+
+@media screen and (min-width: 768px) {
+  .co-work-heading,
+  .co-work-heading-caption {
+    text-align: center;
+  }
+
+  .co-work-section > .container {
+    padding: 6.66rem 1.125rem 12.9rem;
+  }
 }

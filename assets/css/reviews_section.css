@@ -1,4 +1,5 @@
 .reviews-section {
+  position: relative;
   background-color: #cddab2;
 }
 
@@ -49,10 +50,42 @@
 }
 
 @media screen and (min-width: 768px) {
-  .review-text::before {
+  .reviews-section > .container {
+    padding: 6.66rem 2.5rem;
+    font-size: 1rem;
+  }
+
+  .reviews-section p:not(:last-of-type) {
+    margin-bottom: 1.66rem;
+  }
+
+  .re .review-text::before {
     left: calc(12px - 0.3vw);
   }
+
   .review-text::after {
     right: calc(12px - 0.3vw);
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .reviews-section::after {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    content: "";
+    width: 12.6vw;
+    height: 25.1vw;
+    background-image: url("./../icons/review_leaf_pict2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .reviews-section::after {
+    top: 28%;
+    width: 14.6vw;
+    height: 30.1vw;
   }
 }
