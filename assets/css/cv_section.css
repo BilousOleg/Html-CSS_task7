@@ -51,6 +51,7 @@
 
 .quotmark-pict {
   position: absolute;
+  z-index: 3;
   bottom: 0;
   display: inline-block;
   width: clamp(2.625rem, 10vw, 5.83rem);
