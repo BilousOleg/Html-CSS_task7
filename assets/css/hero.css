@@ -1,15 +1,15 @@
 .hero {
   position: relative;
-  background-color: #cddab2;
+  background-color: var(--text-background-color-light);
   overflow: hidden;
 }
 
 .hero > .container {
   position: relative;
-  padding-top: 2rem;
   display: flex;
   justify-content: space-between;
   min-height: 300px;
+  padding-top: 2rem;
 }
 
 .hero-info {
@@ -23,7 +23,7 @@
 .hero-heading {
   font-size: clamp(2.875rem, 10vw, 5.33rem);
   font-weight: bold;
-  color: #0e2715;
+  color: var(--text-color-darker);
 }
 
 .hero-heading span {
@@ -33,7 +33,7 @@
 .hero-description {
   margin-bottom: 1rem;
   font-size: clamp(0.75rem, 3vw, 1.56rem);
-  color: #31533b;
+  color: var(--text-background-color-dark);
 }
 
 .social-links {
@@ -79,9 +79,9 @@
 }
 
 .hero .image-wrapper {
-  width: 48%;
   display: flex;
   justify-content: flex-end;
+  width: 48%;
 }
 
 .hero .back {
@@ -90,7 +90,7 @@
   left: 0;
   display: flex;
   align-items: end;
-  width: 100vw;
+  width: 100%;
   height: 100%;
 }
 
@@ -103,9 +103,9 @@
 @media screen and (min-width: 1300px) {
   .hero .back::before {
     position: absolute;
-    content: "";
     width: 21.6vw;
     height: 27.1vw;
+    content: "";
     background-image: url("./../icons/header_leaf_pict.svg");
     background-repeat: no-repeat;
     background-size: contain;

@@ -1,5 +1,5 @@
 .co-work-section {
-  background-color: #ffffff;
+  background-color: var(--main-color-medium);
 }
 
 .co-work-section > .container {
@@ -8,7 +8,7 @@
 
 .co-work-heading {
   font-size: clamp(2.5rem, 8vw, 3.33rem);
-  color: #1a3923;
+  color: var(--text-color-dark);
 }
 
 .co-work-heading span {
@@ -19,7 +19,7 @@
   margin-bottom: 2.5rem;
   font-size: 1.125rem;
   line-height: 152.5%;
-  color: #31533b;
+  color: var(--text-background-color-dark);
 }
 
 .co-work-card-container {
@@ -34,14 +34,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: clamp(70px, calc(11vw + 3.24vh), 120px);
   gap: 8px;
+  width: clamp(70px, calc(11vw + 3.24vh), 120px);
 }
 
 .co-work-image-wrapper {
   width: 100%;
   height: clamp(70px, calc(11vw + 3.24vh), 120px);
-  background-color: #c4c4c4;
+  background-color: var(--addition-color-dark);
   border-radius: 50%;
 }
 
@@ -49,7 +49,7 @@
   font-size: 0.75rem;
   font-weight: bold;
   text-align: center;
-  color: #1a3923;
+  color: var(--text-color-dark);
 }
 
 @media screen and (min-width: 768px) {

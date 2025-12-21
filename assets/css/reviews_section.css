@@ -1,6 +1,6 @@
 .reviews-section {
   position: relative;
-  background-color: #cddab2;
+  background-color: var(--text-background-color-light);
 }
 
 .reviews-section > .container {
@@ -17,6 +17,10 @@
   margin-bottom: 1.25rem;
 }
 
+.review-text {
+  color: var(--text-color-darker);
+}
+
 .review-owner {
   font-weight: bold;
   margin-top: 0.9375rem;
@@ -24,26 +28,26 @@
 }
 
 .review-text::before {
-  content: "";
   position: absolute;
   left: 12px;
   top: 50%;
   display: inline-block;
   width: 0.75rem;
   height: 1.375rem;
+  content: "";
   background-image: url("./../icons/caret_right.svg");
   background-repeat: no-repeat;
   cursor: pointer;
 }
 
 .review-text::after {
-  content: "";
   position: absolute;
   right: 12px;
   top: 50%;
   display: inline-block;
   width: 0.75rem;
   height: 1.375rem;
+  content: "";
   background-image: url("./../icons/caret_left.svg");
   background-repeat: no-repeat;
   cursor: pointer;
@@ -53,10 +57,10 @@
   position: absolute;
   top: 0;
   left: 0;
-  justify-content: end;
   display: flex;
+  justify-content: end;
   align-items: end;
-  width: 100vw;
+  width: 100%;
   height: 100%;
 }
 
@@ -82,9 +86,9 @@
 @media screen and (min-width: 1300px) {
   .reviews-section .back::after {
     position: absolute;
-    content: "";
     width: 25.6vw;
     height: 35.1vw;
+    content: "";
     background-image: url("./../icons/review_leaf_pict.png");
     background-repeat: no-repeat;
     background-position: right;

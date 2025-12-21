@@ -1,5 +1,5 @@
 .proposal-section {
-  background-color: #b3b476;
+  background-color: var(--background-color-medium);
 }
 
 .proposal-section > .container {
@@ -7,16 +7,16 @@
 }
 
 .proposal-heading {
-  font-size: clamp(2.5rem, 8vw, 3.33rem);
   margin-bottom: 2.5rem;
-  color: #0e2715;
+  font-size: clamp(2.5rem, 8vw, 3.33rem);
+  color: var(--text-color-darker);
 }
 
 .proposal-card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(331px, 400px));
-  gap: 20px;
   justify-content: center;
+  gap: 20px;
 }
 
 .proposal-card {
@@ -30,25 +30,25 @@
   flex-shrink: 0;
   width: clamp(100px, calc(13.33vw + 5.7vh), 120px);
   height: clamp(100px, calc(13.33vw + 5.7vh), 120px);
-  background-color: #dcdcdc;
-  border: 1px solid #000000;
+  background-color: var(--card-image-color-light);
+  border: 1px solid var(--border-color-dark);
 }
 
 .proposal-info-section {
   display: flex;
   flex-direction: column;
-  gap: 8px;
   justify-content: center;
+  gap: 8px;
 }
 
 .proposal-card-info {
   font-size: 1.125rem;
   line-height: 1.5;
+  color: var(--text-color-dark);
 }
 
 .proposal-card-info strong {
   font-weight: bold;
-  color: #1a3923;
 }
 
 .proposal-btn {
@@ -59,9 +59,9 @@
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #fbf1e3;
-  border: 1px solid #000000;
-  background-color: #ce4115;
+  color: var(--button-text-color-light);
+  border: 1px solid var(--border-color-dark);
+  background-color: var(--link-color);
 }
 
 .cursor-pict {
@@ -81,5 +81,9 @@
 
   .proposal-section > .container {
     padding: 6.66rem 1.125rem;
+  }
+
+  .proposal-card-info {
+    color: var(--text-color-darker);
   }
 }

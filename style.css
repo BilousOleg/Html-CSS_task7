@@ -1,5 +1,20 @@
 :root {
-  /* colors */
+  --main-color-light: #e5e5e5;
+  --main-color-medium: #f5f9ed;
+  --border-color-dark: #000000;
+  --border-color-light: #e9efdb;
+  --text-color-darker: #0e2715;
+  --text-color-dark: #1a3923;
+  --text-background-color-dark: #31533b;
+  --text-background-color-light: #cddab2;
+  --background-color-medium: #b3b476;
+  --addition-color-light: #ffffff;
+  --addition-color-medium: #8b8c4a;
+  --addition-color-dark: #c4c4c4;
+  --link-color: #ce4115;
+  --card-image-color-light: #dcdcdc;
+  --button-text-color-light: #fbf1e3;
+  --header-color: #f5efeb;
 
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -13,6 +28,10 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--main-color-light);
 }
 
 h1,

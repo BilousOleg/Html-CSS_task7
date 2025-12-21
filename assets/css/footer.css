@@ -1,5 +1,5 @@
 .footer {
-  background-color: #ffffff;
+  background-color: var(--main-color-medium);
 }
 
 .footer > .container {
@@ -28,6 +28,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .footer {
+    background-color: var(--addition-color-light);
+  }
+
   .footer .logo {
     font-size: 1.77rem;
   }
