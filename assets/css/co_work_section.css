@@ -30,6 +30,7 @@
   row-gap: 1.25rem;
 }
 
+/* Можливо, картки можна було б також зробити окремим компонентом... */
 .co-work-card {
   display: flex;
   flex-direction: column;

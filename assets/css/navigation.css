@@ -17,6 +17,7 @@
   padding: 1.6875rem 1.125rem;
 }
 
+/* Лого можна було б зробити окремим компонентом, але воно перевизначається у футері (змінює деякі стилі), тому залишив так */
 .logo {
   text-transform: lowercase;
 }
@@ -84,7 +85,7 @@
     display: block;
     width: auto;
     padding: 0;
-    line-height: normal;
+    line-height: 1.1;
     background: none;
   }
 
