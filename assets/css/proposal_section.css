@@ -15,7 +15,6 @@
 .proposal-card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(331px, 400px));
-  justify-content: center;
   gap: 20px;
 }
 
@@ -77,10 +76,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .proposal-card-container {
-    justify-content: start;
-  }
-
   .proposal-section > .container {
     padding: 6.66rem 1.125rem;
   }
